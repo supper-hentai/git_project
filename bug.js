@@ -1,0 +1,6 @@
+"// 有bug的函数" 
+"function divide(a, b) {" 
+"    return a / b; // 没有处理除零错误" 
+"}" 
+"" 
+"console.log('10 / 0 =', divide(10, 0)); // 这会出问题" 
